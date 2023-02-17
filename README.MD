@@ -1,0 +1,2 @@
+Rest template <br/>
+Openfeign
