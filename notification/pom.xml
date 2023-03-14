@@ -6,9 +6,9 @@
         <artifactId>services</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <artifactId>fraud</artifactId>
-    <name>Fraud</name>
-    <url>http://maven.apache.org</url>
+    <artifactId>notification</artifactId>
+    <name>Notification</name>
+    <url>https://maven.apache.org</url>
 
     <dependencies>
         <dependency>
@@ -16,12 +16,18 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-mongodb</artifactId>
-        </dependency>
-        <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-redis</artifactId>
+            <version>3.0.3</version>
+        </dependency>
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+            <version>4.3.1</version>
         </dependency>
         <dependency>
             <groupId>com.emiz</groupId>

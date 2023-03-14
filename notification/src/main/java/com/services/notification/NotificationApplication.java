@@ -1,11 +1,12 @@
-package com.services.fraud;
+package com.services.notification;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+
 @SpringBootApplication
-public class FraudApplication {
+public class NotificationApplication {
     public static void main(String[] args) {
-        SpringApplication.run(FraudApplication.class,args);
+        SpringApplication.run(NotificationApplication.class,args);
     }
 }

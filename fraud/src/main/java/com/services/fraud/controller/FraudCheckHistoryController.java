@@ -1,6 +1,6 @@
 package com.services.fraud.controller;
 
-import com.services.fraud.dto.FraudCheckResponse;
+import com.services.clients.fraud.dto.FraudCheckResponse;
 import com.services.fraud.service.FraudCheckHistoryService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
